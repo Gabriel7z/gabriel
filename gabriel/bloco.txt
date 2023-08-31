@@ -1,0 +1,2 @@
+rnfs ----- atalho para comando inicial
+npm i ---- para instalar o modulo para rodar o projeto, toda vez    que for um pc diferente 

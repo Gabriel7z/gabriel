@@ -1,11 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Botao from './components/Botao';
+import Filho from './components/Filho';
+import Pai from './components/Pai';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <Pai/>
+      <Botao/>
     </View>
   );
 }
