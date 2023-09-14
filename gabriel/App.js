@@ -1,14 +1,12 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import Botao from './components/Botao';
-import Filho from './components/Filho';
-import Pai from './components/Pai';
+import Cronometr from './Components/Cronometr';
+
+
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Pai/>
-      <Botao/>
+      <Cronometr/>
     </View>
   );
 }
